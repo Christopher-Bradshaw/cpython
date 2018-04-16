@@ -537,7 +537,7 @@ PyEval_EvalFrameEx(PyFrameObject *f, int throwflag)
 }
 
 PyObject* _Py_HOT_FUNCTION
-_PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag)
+_PyEval_EvalFrameDefault(PyFrameObject *f, int throwflag) // main_loop
 {
 #ifdef DXPAIRS
     int lastopcode = 0;
